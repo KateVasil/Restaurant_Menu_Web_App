@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+
 MEAL_TYPE = (
     ("starters", "Starters"),
     ("salads", "Salads"),
@@ -10,7 +11,6 @@ STATUS = (
     (0, "Unavailable"),
     (1, "Available")
 )
-
 
 
 class Item(models.Model):
